@@ -1,0 +1,33 @@
+<html>
+<head>
+   <style>
+        .blur{
+               filter: blur(4px);
+             }
+           .brightness{filter:brightness(250%);}
+            .contrast{filter:contrast(180%);}
+            .huerotate{filter:hue-rotate(180%);}
+            .huerotatel{filter:hue-rotate(100%);}
+            .grayscale{filter:grayscale(100%);}
+            .invert{filter:invert(100%);}
+            .opacity{filter:opacity(50%);}
+             .saturate{filter:saturate(7);}
+           .saturatel{filter:saturatel(20);}
+           .sepia{filter:sepia(100%);}
+    </style>
+</head>
+<body>
+    <img src="image.jpg" width="500" height="350"/>
+    <img class="blur" src="ritu.jpg" width="300" height="300"/>
+    <img class="brightness" src="ritu.jpg" width="300" height="300"/>
+    <img class="contrast" src="ritu.jpg" width="300" height="300"/>
+    <img class="huerotate" src="ritu.jpg" width="300" height="300"/>
+   <img class="huerotatel" src="ritu.jpg" width="300" height="300"/>
+    <img class="grayscale" src="ritu.jpg" width="300" height="300"/>
+    <img class="invert" src="ritu.jpg" width="300" height="300"/>
+    <img class="opacity" src="ritu.jpg" width="300" height="300"/>
+    <img class="saturate" src="ritu.jpg" width="300" height="300"/>
+    <img class="saturatel" src="ritu.jpg" width="300" height="300"/>
+    <img class="sepia" src="ritu.jpg" width="300" height="300"/>
+</body>
+</html>
